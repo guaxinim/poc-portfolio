@@ -5,9 +5,9 @@ Hosts:
 
 |Host     |Description                                        |
 |-----------|-------------------------------------------------|
-|host0      |JBoss BPM Suite                                  |
-|host1      |JBoss Fuse / RHSSO                               |
-|host2      |JBoss Data Grid / JBoss Data Virtualization      |
+|host1      |JBoss BPM Suite                                  |
+|host2      |JBoss Fuse / RHSSO                               |
+|host3      |JBoss Data Grid / JBoss Data Virtualization      |
 
 This environment is using vagrant to automate VM provision. 
 In order to continue you have to [install Vagrant](https://www.vagrantup.com/docs/installation/).

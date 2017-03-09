@@ -1,6 +1,5 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-192.168.33.10 		centos-master
-192.168.33.11		centos-host1
-192.168.33.12 		centos-host2
-192.168.33.13 		centos-host3
+192.168.33.10 		host1
+192.168.33.11		host2
+192.168.33.12 		host3
