@@ -60,8 +60,7 @@ Vagrant.configure(2) do |config|
     host1.vm.provision "shell", inline: "sudo timedatectl set-timezone America/Sao_Paulo"
     host1.vm.provision "shell", inline: "sudo timedatectl set-ntp yes"
     # bpm suite startup
-    host1.vm.provision "shell", inline: "cd /vagrant/content/jboss-bpm-suite-6.4.0/bin"
-    host1.vm.provision "shell", run: "always", inline: "nohup ./standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 -bunsecure 0.0.0.0 -Dorg.kie.override.deploy.enabled=true -Djbpm.enable.multi.con=true & sleep 1"
+    host1.vm.provision "shell", run: "always", inline: "cd /vagrant/content/jboss-bpm-suite-6.4.0/bin;nohup ./standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 -bunsecure 0.0.0.0 -Dorg.kie.override.deploy.enabled=true -Djbpm.enable.multi.con=true & sleep 1"
   end
 
 end
